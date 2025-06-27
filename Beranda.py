@@ -36,8 +36,8 @@ def main():
         
         if st.button("📊 Open Data Analysis Dashboard", use_container_width=True, type="primary"):
             st.info("🚀 **Starting Data Analysis Dashboard...**")
-            st.code("streamlit run dashboard.py", language="bash")
-            st.markdown("**Or run:** `python run_dashboard.py`")
+            st.code("streamlit run Analysis_Dashboard.py", language="bash")
+            # st.markdown("**Or run:** `python run_dashboard.py`")
     
     with col2:
         st.markdown("""
@@ -52,8 +52,8 @@ def main():
         
         if st.button("🗺️ Open Spatial Dashboard", use_container_width=True, type="primary"):
             st.info("🚀 **Starting Spatial Dashboard...**")
-            st.code("streamlit run spatial_dashboard.py", language="bash")
-            st.markdown("**Or run:** `python run_spatial_dashboard.py`")
+            st.code("streamlit run Spatial_Dashboard.py", language="bash")
+            # st.markdown("**Or run:** `python run_spatial_dashboard.py`")
     
     st.markdown("---")
     
@@ -80,8 +80,8 @@ def main():
     3. **Each dashboard runs independently** in a separate Streamlit session
     
     **Note:** You can also run the dashboards directly from command line:
-    - `streamlit run dashboard.py` - for data analysis
-    - `streamlit run spatial_dashboard.py` - for spatial overview
+    - `streamlit run Analysis_Dashboard.py` - for data analysis
+    - `streamlit run Spatial_Dashboard.py` - for spatial overview
     """)
 
 if __name__ == "__main__":

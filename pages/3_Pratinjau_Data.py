@@ -6,8 +6,9 @@ import plotly.express as px
 st.set_page_config(layout="wide", page_title="Pratinjau Data CSV",)
 
 # --- Judul dan Deskripsi Dashboard ---
-st.title('📊 Dashboard Visualisasi Data CSV Interaktif')
+st.title('📊 Pratinjau Data')
 st.markdown("""
+    ## Selamat Datang. Ini merupakan halaman tambahan untuk melakukan Pratinjau Data CSV.
     Unggah file CSV Anda di sini untuk memvisualisasikan data dengan mudah.
     Anda dapat melihat pratinjau data, memfilter berdasarkan kolom kategorikal, 
     dan membuat berbagai jenis plot interaktif.
