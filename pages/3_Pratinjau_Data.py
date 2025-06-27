@@ -230,5 +230,5 @@ st.sidebar.info("""
 st.sidebar.markdown("---")
 # Menambahkan link source code
 st.sidebar.markdown(
-    "**Lihat Source Code:** [GitHub Repo Anda](https://github.com/URL_GITHUB_REPO_ANDA/)"
+    "**Lihat Source Code:** [GitHub Repo](https://github.com/digitradiart/data-visualization-streamlit)"
 )
